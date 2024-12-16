@@ -5,13 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>string operation</title>
+    <style>
+        body {
+            background-color: #ff9999;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .box {
+            width: 70%;
+            display: block;
+            margin: 20px auto;
+            min-height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+        }
+        
+        .btn {
+            width: 150px;
+            padding: 8px 15px;
+            font-size: 15px;
+            border-radius: 20px;
+            border: none;
+            background-color: #ff0000;
+            color: #ffff;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .btn:hover {
+            transition: 0.2s;
+            background-color: #ff3333;
+        }
+        
+        @media screen and(max-width:500px) {
+            .container {
+                justify-content: center;
+            }
+            .box {
+                width: 90%;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
     <h1 class="text-center">string operation</h1>
     <input type="text" id="input" class="box" placeholder="Enter a string">
     <input type="text" id="output" class="box" placeholder="Enter output">
-
+    <div class="container ">
 </body>
 
 </html>
