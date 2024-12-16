@@ -91,6 +91,13 @@
                 outputElement.value = inputText.toLowerCase();
 
             }
+
+            function handleWordCount() {
+                const totalWords = inputElement.value.split(" ").length;
+                outputElement.value = ` Word Count:${totalWords}`;
+
+
+            }
         </script>
 
 </body>
